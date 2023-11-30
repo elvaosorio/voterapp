@@ -1,0 +1,63 @@
+{
+  "name": "project-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Server for ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --setupFiles dotenv/config",
+    "lint": "eslint .",
+    "start": "node -r dotenv/config index.js",
+    "watch": "nodemon --exec 'node -r dotenv/config' --ignore '*.test.js' index.js"
+  },
+  "keywords": [
+    "server",
+    "voters"
+  ],
+  "contributors": [
+    "Student1 <eosorio@middlebury.edu>",
+    "Student2 <student2@middlebury.edu>",
+    "Student3 <student2@middlebury.edu>",
+    "Student4 <student3@middlebury.edu>",
+    "Student5 <student4@middlebury.edu>",
+    "Student6 <student5@middlebury.edu>",
+    "Student7 <student6@middlebury.edu>"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.9",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "db-errors": "^0.2.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "knex": "^0.20.15",
+    "nodemailer": "^6.4.6",
+    "objection": "^2.1.3",
+    "pg": "^8.0.3",
+    "sqlite3": "^4.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  }
+}

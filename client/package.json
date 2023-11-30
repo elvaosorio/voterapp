@@ -1,0 +1,74 @@
+{
+  "name": "project-client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "contributors": [
+    "Student1 <rbabu@middlebury.edu>",
+    "Student2 <williamk@middlebury.edu>",
+    "Student3 <eosorio@middlebury.edu>",
+    "Student4 <etuta@middlebury.edu>",
+    "Student5 <student4@middlebury.edu>",
+    "Student6 <student5@middlebury.edu>",
+    "Student7 <student6@middlebury.edu>"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "emailjs-com": "^2.4.1",
+    "immutable": "^4.0.0-rc.12",
+    "leaflet": "^1.6.0",
+    "leaflet.locatecontrol": "^0.71.1",
+    "lint": "^0.7.0",
+    "mdbreact": "^4.26.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-center": "^1.1.1",
+    "react-dom": "^16.13.0",
+    "react-geocode": "^0.2.1",
+    "react-image": "^2.4.0",
+    "react-leaflet": "^2.6.3",
+    "react-native": "^0.62.2",
+    "react-scripts": "3.4.0",
+    "reactstrap": "^8.4.1",
+    "styled-components": "^5.1.0",
+    "google-maps-react": "^2.0.6",
+    "map": "^1.0.1",
+    "react-google-maps": "^9.4.5",
+    "save": "^2.4.0",
+    "styled": "^1.0.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint-config-prettier": "^6.10.0",
+    "jest-enzyme": "^7.1.2",
+    "react-test-renderer": "^16.13.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "prettier"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

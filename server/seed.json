@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Jim Halpert",
+    "address": "14 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "eosorio@middlebury.edu",
+    "party": "Democrat",
+    "regstration_status": true,
+    "age_range": "18",
+    "race": "White",
+    "socioeconomic_status": "upper"
+  },
+  {
+    "name": "Michael Scott",
+    "address": "16 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "osorioelva@gmail.com",
+    "party": "Democrat",
+    "regstration_status": true,
+    "age_range": "35",
+    "race": "White",
+    "socioeconomic_status": "mid"
+  },
+  {
+    "name": "Pam Beesly",
+    "address": "14 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "elsammyosorio@hotmail.com",
+    "party": "Republican",
+    "regstration_status": true,
+    "age_range": "30",
+    "race": "White",
+    "socioeconomic_status": "lower"
+  },
+  {
+    "name": "Dwight Schrute",
+    "address": "17 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "rbabu@middlebury.edu",
+    "party": "Republican",
+    "regstration_status": true,
+    "age_range": "40",
+    "race": "White",
+    "socioeconomic_status": "upper"
+  },
+  {
+    "name": "Angela Martin",
+    "address": "17 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "williamk@middlebury.edu",
+    "party": "Republican",
+    "regstration_status": true,
+    "age_range": "37",
+    "race": "White",
+    "socioeconomic_status": "mid"
+  },
+  {
+    "name": "Andy Bernard",
+    "address": "24 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "etuta@middlebury.edu",
+    "party": "Republican",
+    "regstration_status": false,
+    "age_range": "70",
+    "race": "White",
+    "socioeconomic_status": "lower"
+  },
+  {
+    "name": "Stanley Hudson",
+    "address": "7 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "mkawano@middlebury.edu",
+    "party": "Independent",
+    "regstration_status": false,
+    "age_range": "60",
+    "race": "Black",
+    "socioeconomic_status": "upper"
+  },
+  {
+    "name": "Phyllis Smith",
+    "address": "3 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "jvillalobos@middlebury.edu",
+    "party": "55",
+    "regstration_status": true,
+    "age_range": "55",
+    "race": "White",
+    "socioeconomic_status": "mid"
+  },
+  {
+    "name": "Creed Bratton",
+    "address": "34 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "sgrandas@middlebury.edu",
+    "party": "Independent",
+    "regstration_status": false,
+    "age_range": "80",
+    "race": "Asian",
+    "socioeconomic_status": "lower"
+  },
+  {
+    "name": "Oscar Martinez",
+    "address": "18 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "wghirmai@middlebury.edu",
+    "party": "Republican",
+    "regstration_status": true,
+    "age_range": "24",
+    "race": "Latino",
+    "socioeconomic_status": "upper"
+  },
+  {
+    "name": "Daryl Phylbin",
+    "address": "20 Old Chapel Rd., Middlebury, VT 05753",
+    "email": "elvajgomez@gmail.com",
+    "party": "Democrat",
+    "regstration_status": true,
+    "age_range": "32",
+    "race": "Black",
+    "socioeconomic_status": "mid"
+  }
+]
